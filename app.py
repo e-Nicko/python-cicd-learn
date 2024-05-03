@@ -1,6 +1,15 @@
 from flask import Flask, render_template
+from dotenv import load_dotenv
+import os
+
+# Загрузка переменных окружения из файла .env
+load_dotenv()
 
 app = Flask(__name__)
+
+# Проверка наличия переменной окружения DEBUG
+if os.environ.get('DEBUG'):
+    app.debug = os.environ.get('DEBUG').lower() == 'true'
 
 @app.route('/')
 def home():
@@ -14,5 +23,5 @@ def resume():
 def about():
     return render_template('about.html')
 
-#if __name__ == '__main__':
-#   app.run(debug=True)
+if __name__ == '__main__':
+    app.run()
