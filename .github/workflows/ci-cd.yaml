@@ -28,5 +28,6 @@ jobs:
           cd /var/www/flaskapp
           git pull
           pip install -r requirements.txt
+          gunicorn -b localhost:8000 app:app --chdir /var/www/flaskapp
           sudo systemctl restart nginx
           sudo systemctl restart gunicorn
