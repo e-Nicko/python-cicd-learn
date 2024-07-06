@@ -1,5 +1,15 @@
 # 🌟 Simple Flask Web Application for CI/CD Learning
 
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green)](https://flask.palletsprojects.com/en/2.0.x/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/e-Nicko/python-cicd-learn)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-yellowgreen)](https://github.com/features/actions)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-lightgrey)](https://git-scm.com/)
+[![Deployment](https://img.shields.io/badge/Deployment-VPS-orange)](https://en.wikipedia.org/wiki/Virtual_private_server)
+
+
+
 This repository contains a comprehensive and straightforward web application built using Flask, designed specifically for educational purposes. It aims to provide hands-on experience with GitHub CI/CD processes and deploying applications on a VPS (Virtual Private Server). Whether you are a beginner looking to understand the basics of continuous integration and continuous deployment, or an intermediate developer seeking to refine your skills, this project offers practical insights into the workflow.
 
 By following the steps outlined in this guide, you will learn how to set up a Flask web application, configure it for local development, and automate the deployment process using GitHub Actions. Each update pushed to the `main` branch triggers the deployment pipeline, ensuring that your application is always up-to-date with the latest changes. This project serves as an excellent resource for mastering the essential aspects of modern web development and deployment strategies.
@@ -59,8 +69,4 @@ You can change the application's settings by editing the `app.py` file according
 
 Remember, this is only for local deployment. When deploying to a server or cloud environment, additional steps and security measures should be considered.
 
----
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/e-Nicko/python-cicd-learn)
-[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green)](https://flask.palletsprojects.com/en/2.0.x/)
